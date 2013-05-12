@@ -9,6 +9,7 @@ class HelloController < ApplicationController
     @msg = 'こんにちは、世界！'
   end
   def list
+    # = SELECT * FROM books
     @books = Book.all
   end
 end
